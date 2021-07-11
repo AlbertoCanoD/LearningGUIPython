@@ -1,11 +1,13 @@
-import tkinter
+import tkinter as tk
 
-ventana = tkinter.Tk()
+#Object of tkinter
+ventana = tk.Tk()
 
 #Size of window
 ventana.geometry("500x500")
 
-etiqueta = tkinter.Label(ventana, text = "Aaaaaaa", bg = "blue")
-etiqueta.pack(side = tkinter.BOTTOM, fill=tkinter.X)
+etiqueta = tk.Label(ventana, text = "Aaaaaaa", bg = "blue")
+etiqueta.pack(side = tk.BOTTOM, fill=tk.X)
 
+#Force to keep open the window
 ventana.mainloop()
