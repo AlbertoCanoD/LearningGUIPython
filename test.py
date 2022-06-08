@@ -1,3 +1,4 @@
+from importlib.resources import path
 from tkinter import *
 import cv2
 from PIL import Image
@@ -11,6 +12,13 @@ try:
 except ImportError:
     raise ImportError("Se requiere el modulo tkinter")
 
+
+def mean():
+
+path = filedialog.askopenfilename()
+
+
+    
 
 def openImage():
 
